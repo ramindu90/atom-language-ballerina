@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-ballerina",
+        "command": "language-ballerina:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-ballerina",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-ballerina:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
